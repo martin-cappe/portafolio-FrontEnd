@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(48, 47, 47);
+color: white; 
+}
+
+nav {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 8px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+    width: 33%;
+}
+
+nav a {
+    text-decoration: none;
+        color: rgb(224, 142, 69);
+    
+}
+
+.contenedorCartas {
+    display: flex;
+    align-items: initial;
+}
+
+.carta {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    max-width: 300px;
+}
+
+.carta .img {
+    width: 100%;
+}
+
+.carta p {
+    padding: 10px;
+}
+
+.carta p a{
+    color:white;
+}
+
+.carta * {
+    margin: 2px;
+}
